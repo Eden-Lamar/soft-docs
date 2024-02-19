@@ -1,0 +1,59 @@
+# Ignore system and backup files
+*.swp
+*~
+.DS_Store
+
+# Ignore logs and databases
+*.log
+*.sqlite
+*.db
+
+# Ignore compiled binaries
+*.class
+*.o
+*.pyc
+*.pyo
+*.dll
+*.exe
+
+# Ignore package and distribution files
+*.tar.gz
+*.zip
+*.tar
+*.gz
+
+# Ignore virtual environments
+venv/
+env/
+node_modules/
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+
+# Ignore environment-specific files
+.env
+
+# Ignore local configuration files
+config.local
+
+# Ignore compiled code and build directories
+__pycache__/
+build/
+dist/
+
+# Ignore Jupyter Notebooks
+*.ipynb_checkpoints/
+
+# Ignore generated documentation
+docs/_build/
+
+# Ignore miscellaneous files
+Thumbs.db
+desktop.ini
+
+# Ignore project-specific files
+project-specific-file.txt
+
+# Ignore sensitive or private information
+secrets.yaml
